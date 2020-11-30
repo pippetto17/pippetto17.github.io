@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sporty</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="https://kit.fontawesome.com/98c6ee2414.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="object/sporty_icon.png">
+    <link rel="stylesheet" href="sporty-style.css"/>
+  </head>
+  <body>
+    <header>
+        <img src="object/collab.png" id="itis"/>
+    </header>
+    <nav id="myNav">
+      <div class="nlinks">
+        <a class="fontt" href="index.html" title="Home"><i class="fas fa-home"></i></a>
+        <a href=" http://www.itisgalilei.edu.it/it/" target="_blank" title="Home del sito di scuola"><img src="object/ruota.png" class="ruota"/></a>
+        <button class="button" data-modal="modalOne" title="Contatti">
+          <i class="fas fa-envelope"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="info">
+          Sporty is an App that will semplify a lot ur life<br>
+          Just enter the app, search through the ads or create one and then... enjoy the game!!!<br>
+          Isn't it grate?
+          <div class="preview">
+              <div class="rectangle">
+                  <div class="prev-head">
+                      <img src="object/sporty_icon.png" class="app-icon"/> Sporty
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+      <i>
+        Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base all’art. 13 del D.<br>
+				Lgs. 196/2003 e all’art. 13 del Regolamento UE 2016/679 relativo alla protezione delle persone fisiche<br>
+        con riguardo al trattamento dei dati personali.
+        <br>
+        <br>
+        <br>
+		    Copyright © Filippo Maria Carletti 2020
+      </i>
+    </footer>
+    <div id="modalOne" class="modal">
+      <div class="modal-content">
+        <div class="contact-form">
+          <a class="closed">&times;</a>
+          <form action="mailto:carletti.filippo_maria.stud@itisgalilei.it">
+            <h2>Contattami</h2>
+            <div>
+              <center><input class="fname" type="text" name="name" placeholder="Nome Completo"/></center>
+              <center><input type="email" name="name" placeholder="Email" /></center>
+            </div>
+            <h3>Messaggio</h3>
+            <div>
+              <center><textarea rows="4" placeholder="..."></textarea></center>
+            </div>
+            <center><button type="submit">INVIA</button></center>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="modalTwo" class="modal">
+      <div class="modal-content">
+        <a class="closed">&times;</a>
+        <div class="twit-phone" style="margin-left: auto; margin-right: auto;">
+          <a class="twitter-timeline" data-lang="it" data-width="300" data-height="600" data-dnt="true" href="https://twitter.com/MKBHD?ref_src=twsrc%5Etfw">Tweets by MKBHD</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.onresize = function(){ location.reload(); }
+
+      function closeSlideMenu() {
+        document.getElementById("menu").style.width = "0";
+        document.getElementById("content").style.marginLeft = "0";
+      }
+      if (window.matchMedia("(min-width: 600px)").matches) {
+        function openSlideMenu() {
+        document.getElementById("menu").style.width = "250px";
+        document.getElementById("content").style.marginLeft = "250px";
+        }
+      } 
+      else {
+        function openSlideMenu() {
+        document.getElementById("menu").style.width = "100%";
+        document.getElementById("content").style.marginLeft = "100%";
+        }
+      }
+
+      let modalBtns = [...document.querySelectorAll(".button")];
+      modalBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.getAttribute("data-modal");
+          document.getElementById(modal).style.display = "block";
+        };
+      });
+      let closeBtns = [...document.querySelectorAll(".closed")];
+      closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.closest(".modal");
+          modal.style.display = "none";
+        };
+      });
+      window.onclick = function (event) {
+        if (event.target.className === "modal") {
+          event.target.style.display = "none";
+        }
+      };
+
+      window.onscroll = function () {
+        myFunction();
+      };
+      var header = document.getElementById("myNav");
+      var sticky = header.offsetTop;
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
