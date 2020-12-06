@@ -1,5 +1,5 @@
 <?php
-$adminEmail = 'admin@admin.com';
+$adminEmail = 'carletti.filippo_maria@itisgalileiroma.it';
 $userEmail = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $userMessage = '
   <html>
