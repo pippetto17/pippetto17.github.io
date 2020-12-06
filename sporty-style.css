@@ -132,7 +132,7 @@ nav {
   transition: 0.5s;
 }
 .ruota {
-  animation: rotation 10s infinite linear;
+  animation: rotation 5s infinite linear;
 }
 
 @keyframes rotation {
