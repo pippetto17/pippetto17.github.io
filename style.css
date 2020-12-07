@@ -454,13 +454,10 @@ footer{
   }
 }
 @media screen and (max-width: 479px){
-  .twit-button, .home, .none, .contatti{
-    width: 40px;
-    height: 40px;
-  }
-  .dark{
-    width: 55px;
-    padding-bottom: 60px;
+  .twit-button, .fontt, .button{
+    font-size: 30px;
+    margin: 0 0 0 0;
+    margin-top: 8px;
   }
   .info, .infos{
     font-size: 12px;
