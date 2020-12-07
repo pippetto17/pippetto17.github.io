@@ -56,8 +56,10 @@
 
 /* BODY, H3, B */
 
-body, html {
+body, head{
   overflow-x: hidden;
+}
+body {
   height: auto;
   background-color: #d2dbe0;
 }
