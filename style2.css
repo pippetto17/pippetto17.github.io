@@ -220,9 +220,12 @@ nav {
   margin-left: 50px;
   font-size: 30px;
 }
-.links img{
+.links img, .lil-prog img{
   width: 50px;
   height: 50px;
+}
+.lil-prog img{
+  display: none;
 }
 .links:hover + [class^="hide"] {
   display: block;
@@ -237,10 +240,6 @@ nav {
 }
 .hide-3{
   margin-left: 13px;
-}
-.hide-4{
-  font-size: ;
-  margin-left: 5px;
 }
 .hide-5{
   margin-left: 23px;
@@ -357,67 +356,36 @@ footer{
   width: 60%;
 }
 .closed {
-  color: #aaa;
+  color: #aab4bb;
   float: right;
   font-size: 28px;
   font-weight: bold;
+  margin-top: 10px;
+  padding-right: 10px;
 }
 .closed:hover, .close:focus {
-  color: black;
+  color: #48545c;
   text-decoration: none;
   cursor: pointer;
 }
 
 /* MODAL FORM CONTACT */
 
-form h2{
-  color: #1c87c9;
-  text-align: center;
+.form-container{
+  background-color:  #292F33;
+  width: fit-content;
+  height: auto;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-form h3{
-  color: #1c87c9;
-  text-align: center;
-  font-weight: normal;
-  font-size: 15px;
-}
-form {
-  padding: 25px;
-  margin: 25px;
-  border-radius: 25px;
-  background-color: #444e55;
-}
-input, textarea {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 20px;
-  background-color: #66747f;
-  border: 1px solid #1c87c9;
-  color: white;
-  outline: none;
-  
-}
-.fname::placeholder{
-  color: #80909c;
-}
-.email::placeholder{
-  color: #80909c;
-}
-.area::placeholder{
-  color: #80909c;
-}
-.contact-form button {
-  width: 90%;
-  padding: 10px;
-  border-radius: 25px;
+.form{
+  width: 600px;
+  height: 760px;
   border: none;
-  background-color: #1c87c9;
-  font-size: 16px;
-  font-weight: 400;
-  color: white;
-  cursor: pointer;
-}
-.contact-form button:hover{
-  background-color: #155d8a;
+  margin-right: -10px;
+  margin-left: 25px;
+  filter: invert(100%);
 }
 
 /* MODAL TWITTER */
@@ -464,17 +432,22 @@ input, textarea {
     width: 85px;
     padding-bottom: 60px;
   }
+  .twit-button{
+    margin-right: 30px;
+  }
   .lateral-nav {
-    margin-top: 170px;
-  }
-  .hide-small{
-    display: block;
-  }
+    margin-top: 160px;
+  } 
   .links:hover + [class^="hide"] {
     display: none;
   }
-  table.tab{
-    width: 350px;
+  .hide-small, .lil-prog img{
+    display: block;
+  }
+}
+@media screen and (max-width: 560px){
+  .dropdown{
+    display: none;
   }
 }
 @media screen and (max-width: 527px) {
@@ -491,8 +464,7 @@ input, textarea {
     width: 55px;
     padding-bottom: 60px;
   }
-
-.info, .infos{
+  .info, .infos{
   font-size: 12px;
-}
+   }
 }

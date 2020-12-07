@@ -220,9 +220,12 @@ nav {
   margin-left: 50px;
   font-size: 30px;
 }
-.links img{
+.links img, .lil-prog img{
   width: 50px;
   height: 50px;
+}
+.lil-prog img{
+  display: none;
 }
 .links:hover + [class^="hide"] {
   display: block;
@@ -352,55 +355,35 @@ footer{
   width: 60%;
 }
 .closed {
-  color: #aaa;
+  color: #698796;
   float: right;
   font-size: 28px;
   font-weight: bold;
+  margin-top: 10px;
+  padding-right: 10px;
 }
 .closed:hover, .close:focus {
-  color: black;
+  color: #4b5f69;
   text-decoration: none;
   cursor: pointer;
 }
 
 /* MODAL FORM CONTACT */
 
-form h2{
-  color: #02274a;
-  text-align: center;
+.form-container{
+  background-color: #bac8cf;
+  width: fit-content;
+  height: auto;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-form h3{
-  color: #02274a;
-  text-align: center;
-  font-weight: normal;
-  font-size: 15px;
-}
-form {
-  padding: 25px;
-  margin: 25px;
-  border-radius: 25px;
-  background: #eee;
-}
-input, textarea {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #698796;
-  outline: none;
-}
-.contact-form button {
-  width: 90%;
-  padding: 10px;
-  border-radius: 25px;
+.form{
+  width: 600px;
+  height: 760px;
   border: none;
-  background: #698796;
-  font-size: 16px;
-  font-weight: 400;
-  color: white;
-  cursor: pointer;
-}
-.contact-form button:hover{
-  background: #4e616b;
+  margin-right: -10px;
+  margin-left: 25px;
 }
 
 /* MODAL TWITTER */
@@ -447,17 +430,22 @@ input, textarea {
     width: 85px;
     padding-bottom: 60px;
   }
+  .twit-button{
+    margin-right: 30px;
+  }
   .lateral-nav {
     margin-top: 160px;
   }
   .links:hover + [class^="hide"] {
     display: none;
   }
-  .hide-small{
+  .hide-small, .lil-prog img{
     display: block;
   }
-  table.tab{
-    width: 350px;
+}
+@media screen and (max-width: 560px){
+  .dropdown{
+    display: none;
   }
 }
 @media screen and (max-width: 527px) {

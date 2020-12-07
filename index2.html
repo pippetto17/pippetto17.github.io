@@ -4,7 +4,7 @@
     <title>Curriculum Vitae</title>
     <meta charset="UTF-8"/>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/98c6ee2414.js" crossorigin="anonymous"></script>
     <link rel="icon" href="object/ruota.png">
     <link rel="stylesheet" href="style2.css"/>
   </head>
@@ -16,12 +16,12 @@
       <div id="content">
         <span class="slide">
           <a href="#" onclick="openSlideMenu()">
-            <i id="ggg" class="fas fa-bars"></i>
+            <i class="fas fa-bars"></i>
           </a>
         </span>
         <div id="menu" class="lateral-nav">
           <a href="#" class="close" onclick="closeSlideMenu()">
-            <i class="fas fa-times"></i>
+            <i class="fas fa-times-circle"></i>
           </a>
           <a class="links" href=" https://classroom.google.com/u/1/c/MTQ5NTc3Mzg4Mzkw?hl=it" target="_blank"><img src="object/classroom.png"/></a>
           <div class="hide-1">Classe TPSIT</div>
@@ -38,6 +38,8 @@
           <a class="links" href=" https://github.com/pippetto17/CV-repo-try" target="_blank"><img src="object/github.png"/></a>
           <div class="hide-5">My Repo</div>
           <div class="hide-small">My Repo</div>
+          <a class="lil-prog" href="sporty.html"><img src="object/sporty_icon.png"/></a>
+          <div class="hide-small">Sporty</div>
         </div>
       </div>
       <div class="dropdown">
@@ -129,27 +131,14 @@
       </i>
     </footer>
     <div id="modalOne" class="modal">
-      <div class="modal-content">
-        <div class="contact-form">
-          <a class="closed">&times;</a>
-          <form action="mailto:carletti.filippo_maria.stud@itisgalilei.it">
-            <h2>Contattami</h2>
-            <div>
-              <center><input class="fname" type="text" name="name" placeholder="Nome Completo" /></center>
-              <center><input class="email" type="email" name="name" placeholder="Email" /></center>
-            </div>
-            <h3>Messaggio</h3>
-            <div>
-              <center><textarea class="area" rows="4" placeholder="..."></textarea></center>
-            </div>
-            <center><button type="submit">INVIA</button></center>
-          </form>
-        </div>
+      <div class="form-container">
+        <a class="closed"><i class="fas fa-times-circle"></i></a>
+        <iframe class="form" src="https://docs.google.com/forms/d/e/1FAIpQLSey3L4HuyLbdJrm-gCby_DhMCrSX6vtKiPUjQBKKN1NCscnCQ/viewform?embedded=true" scrolling="no" >Caricamento…</iframe>
       </div>
     </div>
     <div id="modalTwo" class="modal">
       <div class="modal-content">
-        <a class="closed">&times;</a>
+        <a class="closed"><i class="fas fa-times-circle"></i></a>
         <div class="twit-phone" style="margin-left: auto; margin-right: auto;">
           <a class="twitter-timeline" data-lang="it" data-width="300" data-height="600" data-theme="dark" href="https://twitter.com/MKBHD?ref_src=twsrc%5Etfw">Tweets by MKBHD</a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
