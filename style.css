@@ -56,10 +56,8 @@
 
 /* BODY, H3, B */
 
-body, head{
-  overflow-x: hidden;
-}
 body {
+  overflow-x: hidden;
   height: auto;
   background-color: #d2dbe0;
 }
@@ -90,6 +88,7 @@ header {
 /* NAVIGATION BAR */
 
 nav {
+  overflow: hidden;
   position: absolute;
   width: 100%;
   margin-top: -8px;
