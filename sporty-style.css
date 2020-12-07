@@ -199,7 +199,7 @@ footer{
   margin-left: -8px;
   right: 0;
   padding: 25px;
-  color: #1b4636;
+  color: #276850;
   text-align: center;
 }
 
@@ -222,53 +222,36 @@ footer{
   width: 60%;
 }
 .closed {
-  color: #aaa;
+  color: #4dbd94;
   float: right;
   font-size: 28px;
   font-weight: bold;
+  margin-top: 10px;
+  padding-right: 10px;
 }
 .closed:hover, .close:focus {
-  color: black;
+  color: #308264;
   text-decoration: none;
   cursor: pointer;
 }
 
 /* MODAL FORM CONTACT */
 
-form h2{text-align: center;}
-form h3{
-  text-align: center;
-  font-weight: normal;
-  font-size: 15px;
+.form-container{
+  background-color: #15382b;
+  width: fit-content;
+  height: auto;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
-form {
-  color: #15382b;
-  padding: 25px;
-  margin: 25px;
-  border-radius: 25px;
-  background: #4dbd94;
-}
-input, textarea {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 0;
-  background-color: #3ea881;
-  outline: none;
-}
-.contact-form button {
-  width: 90%;
-  padding: 10px;
-  border-radius: 25px;
+.form{
+  width: 600px;
+  height: 760px;
   border: none;
-  background-color: #297056;
-  font-size: 16px;
-  font-weight: 400;
-  color: white;
-  cursor: pointer;
-}
-.contact-form button:hover{
-  background-color:  #1c4a39;
+  margin-right: -10px;
+  margin-left: 25px;
+  filter: invert(100%);
 }
 
 /* MEDIA QUERYS FOR ALL DEVICE KIND */
