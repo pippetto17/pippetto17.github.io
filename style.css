@@ -454,7 +454,7 @@ footer{
 }
 @media screen and (max-width: 479px){
   .twit-button, .fontt, .button{
-    font-size: 35px;
+    font-size: 40px;
     margin: 0 0 0 0;
     margin-top: -70px;
   }
@@ -468,10 +468,10 @@ footer{
 @media screen and (max-width: 375px){
   .nlinks{
     padding: 0;
-    margin-top: 40px;
+    margin-top: 38px;
   }
   .twit-button, .fontt, .button{
-    margin-left: 0;
+    margin-left: 10px;
     margin-right: 0;
     padding-right: 0;
     padding-left: 0;
