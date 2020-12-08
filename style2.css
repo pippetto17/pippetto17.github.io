@@ -424,25 +424,24 @@ footer{
     margin-left: 5px;
     margin-right: 5px;
   }
-  .twit-button, .home, .none, .contatti{
-    width: 70px;
-    height: 70px;
-  }
-  .dark{
-    width: 85px;
-    padding-bottom: 60px;
-  }
-  .twit-button{
-    margin-right: 30px;
-  }
   .lateral-nav {
     margin-top: 160px;
-  } 
+  }
+  .lateral-nav a{
+    margin-right: 10px;
+  }
+  .links img, .lil-prog img{
+    width: 35px;
+    height: 35px;
+  }
   .links:hover + [class^="hide"] {
     display: none;
   }
   .hide-small, .lil-prog img{
     display: block;
+  }
+  .form{
+    width: 80%;
   }
 }
 @media screen and (max-width: 560px){
@@ -456,15 +455,27 @@ footer{
   }
 }
 @media screen and (max-width: 479px){
-  .twit-button, .home, .none, .contatti{
-    width: 40px;
-    height: 40px;
+  .twit-button, .fontt, .button{
+    font-size: 40px;
+    margin: 0 0 0 0;
+    margin-top: -70px;
   }
-  .dark{
-    width: 55px;
-    padding-bottom: 60px;
+  .nlinks{
+    margin-top: -30px;
   }
   .info, .infos{
-  font-size: 12px;
-   }
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 375px){
+  .nlinks{
+    padding: 0;
+    margin-top: 38px;
+  }
+  .twit-button, .fontt, .button{
+    margin-left: 10px;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
