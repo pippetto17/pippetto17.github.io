@@ -19,6 +19,9 @@
           <i class="fas fa-envelope"></i>
         </button>
       </div>
+        <button class="download">
+          <a href="https://drive.google.com/uc?export=download&id=1roN2nU9Fr9jxyhF5Ov25XLfv7jxK5BPg" target="blank">Download</a>
+        </button>
     </nav>
     <div class="container">
       Sporty is an App that will semplify a lot ur life<br>
@@ -50,25 +53,6 @@
       </div>
     </div>
     <script>
-      window.onresize = function(){ location.reload(); }
-
-      function closeSlideMenu() {
-        document.getElementById("menu").style.width = "0";
-        document.getElementById("content").style.marginLeft = "0";
-      }
-      if (window.matchMedia("(min-width: 600px)").matches) {
-        function openSlideMenu() {
-        document.getElementById("menu").style.width = "250px";
-        document.getElementById("content").style.marginLeft = "250px";
-        }
-      } 
-      else {
-        function openSlideMenu() {
-        document.getElementById("menu").style.width = "100%";
-        document.getElementById("content").style.marginLeft = "100%";
-        }
-      }
-
       let modalBtns = [...document.querySelectorAll(".button")];
       modalBtns.forEach(function (btn) {
         btn.onclick = function () {
