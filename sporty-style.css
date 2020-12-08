@@ -149,21 +149,14 @@ nav {
 .container {
   padding: 20px;
   border-radius: 25px;
-  background-color: #297056;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 80px;
   margin-bottom: 20px;
-}
-.info{
-  border-radius: 25px;
   background-color: #15382b;
   color: white;
   text-align: center;
   font-size: 30px;
-  margin-bottom: 0px;
-  width: 100%;
-  padding: 25px;
 }
 .preview{
   margin-top: 70px;
