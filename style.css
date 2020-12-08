@@ -438,6 +438,9 @@ footer{
   .hide-small, .lil-prog img{
     display: block;
   }
+  .form{
+    width: 80%;
+  }
 }
 @media screen and (max-width: 560px){
   .dropdown{
