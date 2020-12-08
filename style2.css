@@ -105,7 +105,7 @@ nav {
 .nlinks {
   float: right;
 }
-.twit-button, .fontt, .button{
+.twit-button, .fontt, .button, .switch-light{
   font-size: 45px;
   position: relative;
   width: auto;
@@ -120,16 +120,19 @@ nav {
   margin-top: 10px;
   margin-bottom: -10px;  
 }
-.button{
+.button, .switch-light{
   height: 45px;
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
 }
-.fontt:hover, .button:hover{
+.fontt:hover, .button:hover, .switch-light:hover{
   color: #2d3439;
   transition: 0.5s;
+}
+.switch{
+  display: none;
 }
 .dropbtn {
   color: #aab4bb;
@@ -268,6 +271,12 @@ nav {
   font-family: "San Francisco Display Medium";
   border-radius: 25px;
 }
+.twit-dark{
+  float: right;
+}
+.twit{
+  display: none;
+}
 .info, .infos{
   border-radius: 25px;
   background-color:  #292F33;
@@ -400,6 +409,9 @@ footer{
 
 @media screen and (max-width: 1338px) {
   .twit{
+    display: none;
+  }
+  .twit-dark{
     display: none;
   }
   .info, .infos{

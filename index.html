@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://kit.fontawesome.com/98c6ee2414.js" crossorigin="anonymous"></script>
     <link rel="icon" href="object/ruota.png">
-    <link rel="stylesheet" href="style.css"/>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
     <header>
@@ -54,7 +54,8 @@
             <i class="fab fa-twitter"></i>
           </button>
         </div>
-        <a class="fontt" href="index2.html" title="Switch On Dark Mode"><i class="fas fa-toggle-off"></i></a> 
+        <button class="switch" onclick="swapStyleSheet('style2.css')"><i class="fas fa-toggle-off"></i></button>
+        <button class="switch-light" onclick="swapStyleSheet('style.css')"><i class="fas fa-toggle-on"></i></button>
         <a class="fontt" href=" http://www.itisgalilei.edu.it/it/" target="_blank" title="Home"><i class="fas fa-home"></i></a>
         <button class="button" data-modal="modalOne" title="Contatti">
           <i class="fas fa-envelope"></i>
@@ -62,8 +63,12 @@
       </div>
     </nav>
     <div class="container">
-      <div class="twit" style="float: right;">
-        <a class="twitter-timeline" data-lang="it" data-width="300" data-height="1215" data-dnt="true" href="https://twitter.com/MKBHD?ref_src=twsrc%5Etfw">Tweets by MKBHD</a>
+      <div class="twit">
+        <a class="twitter-timeline" data-lang="it" data-width="300" data-height="1245" data-dnt="true" href="https://twitter.com/MKBHD?ref_src=twsrc%5Etfw">Tweets by MKBHD</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="twit-dark">
+        <a class="twitter-timeline" data-lang="it" data-width="300" data-height="1245" data-theme="dark" href="https://twitter.com/MKBHD?ref_src=twsrc%5Etfw">Tweets by MKBHD</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       <div class="info">
@@ -194,6 +199,10 @@
         } else {
           header.classList.remove("sticky");
         }
+      }
+
+      function swapStyleSheet(sheet){
+        document.getElementById('pagestyle').setAttribute('href', sheet);
       }
     </script>
   </body>
