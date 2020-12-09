@@ -388,13 +388,16 @@ footer{
   margin-left: auto;
   margin-right: auto;
 }
-.form{
+.form-dark{
   width: 600px;
   height: 760px;
   border: none;
   margin-right: -10px;
   margin-left: 25px;
   filter: invert(100%);
+}
+.form{
+  display: none;
 }
 
 /* MODAL TWITTER */

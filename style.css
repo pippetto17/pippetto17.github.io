@@ -394,6 +394,9 @@ footer{
   margin-right: -10px;
   margin-left: 25px;
 }
+.form-dark{
+  display: none;
+}
 
 /* MODAL TWITTER */
 
