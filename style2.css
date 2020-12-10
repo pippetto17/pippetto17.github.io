@@ -68,15 +68,16 @@ h3{
 b{
   color: #1c87c9;
 }
+html, body {
+  padding: 0;
+  margin: 0;
+}
 
 /* HEADER */
 
 header {
   height: 120px;
   background-color: #444e55;
-  margin-top: -8px;
-  margin-left: -8px;
-  margin-right: -10px;
 }
 #itis {
   display: block;
@@ -90,12 +91,8 @@ header {
 nav {
   position: absolute;
   width: 100%;
-  margin-top: -8px;
-  margin-left: -8px;
-  padding-top: 8px;
   background-color: #444e55;
-  padding-right: 20px;
-  right: 0px;
+  padding-right: 10px;
 }
 .sticky {
   position: fixed;
