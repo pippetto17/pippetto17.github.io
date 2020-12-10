@@ -487,4 +487,7 @@ footer{
     float: right;
     width: 70%;
   }
+  .form{
+    height: 70%;
+  }
 }
