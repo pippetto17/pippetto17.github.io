@@ -413,6 +413,13 @@ footer{
   width: 300px;
   border-radius: 25px;
 }
+.twit-phone-dark{
+  margin-left: auto;
+  margin-right: auto;
+}
+.twit-phone{
+display: none;
+}
 
 /* MEDIA QUERYS FOR ALL DEVICE KIND */
 
