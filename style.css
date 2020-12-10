@@ -102,7 +102,7 @@ nav {
 .nlinks {
   float: right;
 }
-.twit-button, .fontt, .button, .switch{
+.fontt, .button, .switch{
   font-size: 45px;
   position: relative;
   width: auto;
@@ -111,6 +111,16 @@ nav {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 30px;
+  color: white;
+}
+.twit-button{
+  font-size: 45px;
+  position: relative;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
   color: white;
 }
 .fontt{
