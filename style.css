@@ -478,7 +478,7 @@ footer{
     font-size: 12px;
   }
   .twit-button, .fontt, .button, .switch{
-    margin-left: 0;
+    margin-left: 10px;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
