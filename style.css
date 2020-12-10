@@ -229,14 +229,14 @@ nav {
   margin-left: 50px;
   font-size: 30px;
 }
-.links img{
+.links img, .links-no img{
   width: 50px;
   height: 50px;
 }
 .lil-prog img{
   display: none;
 }
-.links:hover + [class^="hide"] {
+.links:hover + [class^="hide"]{
   display: block;
   color: #2c245c;
   font-family: "San Francisco Display Bold";
@@ -453,7 +453,7 @@ footer{
     width: 35px;
     height: 35px;
   }
-  .links:hover + [class^="hide"] {
+  .links:hover + [class^="hide"]{
     display: none;
   }
   .hide-small, .lil-prog img{
@@ -489,5 +489,8 @@ footer{
   }
   .form{
     height: 700px;
+  }
+  .awful{
+    display: none;
   }
 }

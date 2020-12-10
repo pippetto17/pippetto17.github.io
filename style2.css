@@ -492,4 +492,7 @@ footer{
   .form-dark{
     height: 700px;
   }
+  .awful{
+    display: none;
+  }
 }
