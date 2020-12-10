@@ -464,15 +464,6 @@ footer{
   }
 }
 @media screen and (max-width: 479px){
-  .twit-button, .fontt, .switch .button{
-    font-size: 25px;
-    margin: 0;
-    margin-top: -70px;
-    padding: 0;
-  }
-  .nlinks{
-    margin-top: -45px;
-  }
   .info, .infos{
     font-size: 12px;
   }
