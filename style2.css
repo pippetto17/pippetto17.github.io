@@ -102,7 +102,7 @@ nav {
 .nlinks {
   float: right;
 }
-.twit-button, .fontt, .button, .switch-light{
+.fontt, .button, .switch-light{
   font-size: 45px;
   position: relative;
   width: auto;
@@ -110,15 +110,24 @@ nav {
   display: inline-block;
   margin-top: auto;
   margin-bottom: auto;
-  padding-left: 30px;
+  margin-left: 30px;
+  color: #aab4bb;
+}
+.twit-button{
+  font-size: 45px;
+  position: relative;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
   color: #aab4bb;
 }
 .fontt{
   margin-top: 10px;
   margin-bottom: -10px;  
 }
-.button, .switch-light{
-  height: 45px;
+.button, .switch{
   background: none;
   border: none;
   outline: none;
