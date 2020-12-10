@@ -467,4 +467,7 @@ footer{
   .info, .infos{
     font-size: 12px;
   }
+  .twit-button, .fontt, .button, .switch{
+    margin-left: 0;
+  }
 }
