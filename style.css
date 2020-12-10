@@ -478,12 +478,13 @@ footer{
     font-size: 12px;
   }
   .twit-button, .fontt, .button, .switch{
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
   }
   .nlinks{
     float: right;
+    width: 70%;
   }
 }
