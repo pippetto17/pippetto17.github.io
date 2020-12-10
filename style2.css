@@ -461,7 +461,7 @@ footer{
   .hide-small, .lil-prog img{
     display: block;
   }
-  .form{
+  .form-dark{
     width: 80%;
   }
 }
@@ -489,7 +489,7 @@ footer{
     float: right;
     width: 70%;
   }
-  .form{
+  .form-dark{
     height: 700px;
   }
 }
