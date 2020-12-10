@@ -469,5 +469,6 @@ footer{
   }
   .twit-button, .fontt, .button, .switch{
     margin-left: 0;
+    margin-right: 0;
   }
 }
