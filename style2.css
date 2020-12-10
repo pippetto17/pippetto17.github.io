@@ -467,27 +467,20 @@ footer{
   }
 }
 @media screen and (max-width: 479px){
-  .twit-button, .fontt, .button{
-    font-size: 40px;
-    margin: 0 0 0 0;
-    margin-top: -70px;
-  }
-  .nlinks{
-    margin-top: -30px;
-  }
   .info, .infos{
     font-size: 12px;
   }
-}
-@media screen and (max-width: 375px){
-  .nlinks{
-    padding: 0;
-    margin-top: 38px;
-  }
-  .twit-button, .fontt, .button{
+  .twit-button, .fontt, .button, .switch{
     margin-left: 10px;
     margin-right: 0;
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
+  }
+  .nlinks{
+    float: right;
+    width: 70%;
+  }
+  .form{
+    height: 700px;
   }
 }
