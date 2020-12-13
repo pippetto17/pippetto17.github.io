@@ -263,9 +263,9 @@ nav {
   color: #2c245c;
 }
 
-/* CONTAINER */
+/* CENTRAL SECTION */
 
-.container {
+section{
   padding: 20px;
   border-radius: 25px;
   background-color: #bac8cf;
@@ -460,7 +460,7 @@ display: none;
     width: 100%;
     padding: 20px;
   }
-  .container{
+  section{
     margin-top: 100px;
     margin-left: 5px;
     margin-right: 5px;
@@ -491,7 +491,7 @@ display: none;
   }
 }
 @media screen and (max-width: 527px) {
-  .container{
+  section{
     margin-top: 150px;
   }
 }
