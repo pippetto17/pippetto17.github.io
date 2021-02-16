@@ -39,7 +39,7 @@
   font-family: "San Francisco Display Medium";
 }
 *::-webkit-scrollbar {
-  width: 15px; 
+  width: 10px; 
 }
 *::-webkit-scrollbar-track {
   background: #394147;  
@@ -54,6 +54,8 @@
   background-color: #22272a;
 }
 /* BODY, H3, B */
+
+.mySlides {display:none}
 
 body {
   overflow-x: hidden;

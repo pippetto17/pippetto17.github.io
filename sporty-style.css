@@ -182,26 +182,6 @@ nav {
 .preview{
   margin-top: 70px;
 }
-.rectangle{
-  margin-left: 200px;
-  width: 300px;
-  height: 500px;
-  background-color: white;
-}
-.prev-head{
-  width: 300px;
-  height: 60px;
-  background-color: #4dbd94;
-  color: #1c4a39;
-  margin-top: 0px;
-}
-.app-icon{
-  width: 40px;
-  height: 40px; 
-  float: left; 
-  margin-top: 10px; 
-  margin-left: 10px;
-}
 
 /* FOOTER */
 
