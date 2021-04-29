@@ -265,7 +265,7 @@ nav {
   color: #1c87c9;
 }
 
-/* CONTAINER */
+/* CENTRAL SECTION */
 
 section {
   padding: 20px;
@@ -294,6 +294,16 @@ section {
   width: 75%;
   padding: 25px;
   height: 300px;
+}
+.bau{
+  color: #c4c4c4;
+}
+.info img{
+  width: 160px; 
+  height:160px; 
+  float: left; 
+  margin-right: 25px; 
+  border-radius:100px;
 }
 .infos{
   height: auto;
@@ -351,6 +361,9 @@ section {
 }
 [class^="tab-cell"]:hover{
   background-color: #292e33;
+}
+.info ul li, .infos ul li{
+  list-style: none;
 }
 
 /* FOOTER */
@@ -502,7 +515,11 @@ display: none;
   .info, .infos{
     font-size: 12px;
   }
-  .twit-button, .fontt, .button, .switch-light{
+  .info img{
+    width: 100px;
+    height: 100px;
+  }
+  .twit-button, .fontt, .button, .switch{
     margin-left: 10px;
     margin-right: 0;
     padding-left: 0;
@@ -512,7 +529,7 @@ display: none;
     float: right;
     width: 70%;
   }
-  .form-dark{
+  .form{
     height: 700px;
   }
   .awful{

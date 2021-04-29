@@ -293,6 +293,16 @@ section{
   padding: 25px;
   height: 300px;
 }
+.bau{
+  color: black;
+}
+.info img{
+  width: 160px; 
+  height:160px; 
+  float: left; 
+  margin-right: 25px; 
+  border-radius:100px;
+}
 .infos{
   height: auto;
   margin-bottom: 0px;
@@ -349,6 +359,9 @@ section{
 }
 [class^="tab-cell"]:hover{
   background-color: #bbc3c7;
+}
+.info ul li, .infos ul li{
+  list-style: none;
 }
 
 /* FOOTER */
@@ -498,6 +511,10 @@ display: none;
 @media screen and (max-width: 479px){
   .info, .infos{
     font-size: 12px;
+  }
+  .info img{
+    width: 100px;
+    height: 100px;
   }
   .twit-button, .fontt, .button, .switch{
     margin-left: 10px;
